@@ -1,0 +1,40 @@
+{
+  "webAnalytics": {
+    "visitors": {
+      "visitors": 88,
+      "prevVisitors": 72,
+      "percentageChange": 22.22
+    },
+    "pagePaths": [
+      { "newUsers": 9, "pagePath": "/", "pageViews": 5, "prevNewUsers": 21, "prevPageViews": 13, "pageViewsPercentageChange": -61.54 },
+      { "newUsers": 9, "pagePath": "/features/website-ai", "pageViews": 3, "prevNewUsers": 21, "prevPageViews": 3, "pageViewsPercentageChange": 0 },
+      { "newUsers": 16, "pagePath": "/integrations", "pageViews": 3, "prevNewUsers": 9, "prevPageViews": 1, "pageViewsPercentageChange": 200 },
+      { "newUsers": 8, "pagePath": "/pricing", "pageViews": 2, "prevNewUsers": 9, "prevPageViews": 3, "pageViewsPercentageChange": -33.33 },
+      { "newUsers": 6, "pagePath": "/blogs", "pageViews": 1, "prevNewUsers": 9, "prevPageViews": 1, "pageViewsPercentageChange": 0 }
+    ],
+    "pageViews": {
+      "pageViews": 115,
+      "prevPageViews": 113,
+      "percentageChange": 1.77
+    },
+    "conversionRate": {
+      "totalVisitors": 88,
+      "totalConversions": 72,
+      "conversionRatePercentage": 81.82
+    },
+    "trafficSources": [
+      { "source": "Unassigned", "newUsers": 12, "totalUsers": 7 },
+      { "source": "Direct", "newUsers": 12, "totalUsers": 7 },
+      { "source": "Referral", "newUsers": 12, "totalUsers": 2 },
+      { "source": "Email", "newUsers": 16, "totalUsers": 1 },
+      { "source": "Organic Search", "newUsers": 12, "totalUsers": 1 }
+    ],
+    "visitorsByRegions": [
+      { "city": "Columbus", "region": "Ohio", "newUsers": 14, "totalUsers": 6 },
+      { "city": "Council Bluffs", "region": "Iowa", "newUsers": 14, "totalUsers": 3 },
+      { "city": "Aspen", "region": "Colorado", "newUsers": 12, "totalUsers": 2 },
+      { "city": "Ashburn", "region": "Virginia", "newUsers": 16, "totalUsers": 2 },
+      { "city": "Villanova", "region": "Pennsylvania", "newUsers": 14, "totalUsers": 2 }
+    ]
+  }
+}

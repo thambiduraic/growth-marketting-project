@@ -1,0 +1,49 @@
+{
+  "searchAnalytics": {
+    "devices": [
+      { "ctr": 0, "clicks": 0, "device": "TABLET", "position": 12.58, "impressions": 49 },
+      { "ctr": 0.01, "clicks": 106, "device": "DESKTOP", "position": 39.32, "impressions": 14226 },
+      { "ctr": 0.09, "clicks": 33, "device": "MOBILE", "position": 13.84, "impressions": 402 }
+    ],
+    "overall": {
+      "averageCTR": 0.9,
+      "totalClicks": 139,
+      "averagePosition": 22.09,
+      "totalImpressions": 14677
+    },
+    "topPages": [
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 75.21, "impressions": 19 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo rank tracking", "clicks": 0, "device": "DESKTOP", "position": 40.87, "impressions": 15 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 52.82, "impressions": 17 },
+      { "ctr": 0, "page": "https://reachcopilot.com/solutions/ai-seo", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 31.8, "impressions": 15 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 41.53, "impressions": 19 },
+      { "ctr": 0.5, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 2, "device": "DESKTOP", "position": 1, "impressions": 4 },
+      { "ctr": 0.75, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 3, "device": "DESKTOP", "position": 1, "impressions": 4 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/", "query": "best copilot agents for work", "clicks": 0, "device": "MOBILE", "position": 14, "impressions": 1 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 74.86, "impressions": 21 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo rank tracking", "clicks": 0, "device": "DESKTOP", "position": 33.5, "impressions": 22 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 44.74, "impressions": 23 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 29.71, "impressions": 28 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking software", "clicks": 0, "device": "DESKTOP", "position": 39.4, "impressions": 25 },
+      { "ctr": 1, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 1, "device": "DESKTOP", "position": 1, "impressions": 1 },
+      { "ctr": 1, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 2, "device": "DESKTOP", "position": 1, "impressions": 2 }
+    ],
+    "topQueries": [
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 75.21, "impressions": 19 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo rank tracking", "clicks": 0, "device": "MOBILE", "position": 40, "impressions": 2 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo rank tracking", "clicks": 0, "device": "DESKTOP", "position": 40.87, "impressions": 15 },
+      { "ctr": 0, "page": "https://reachcopilot.com/solutions/ai-seo", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 31.8, "impressions": 15 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 52.82, "impressions": 17 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 41.53, "impressions": 19 },
+      { "ctr": 0.5, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 2, "device": "DESKTOP", "position": 1, "impressions": 4 },
+      { "ctr": 0.75, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 3, "device": "DESKTOP", "position": 1, "impressions": 4 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/", "query": "best copilot agents for work", "clicks": 0, "device": "MOBILE", "position": 14, "impressions": 1 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 74.86, "impressions": 21 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo rank tracking", "clicks": 0, "device": "DESKTOP", "position": 33.5, "impressions": 22 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 44.74, "impressions": 23 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 29.71, "impressions": 28 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking software", "clicks": 0, "device": "DESKTOP", "position": 39.4, "impressions": 25 },
+      { "ctr": 1, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 1, "device": "DESKTOP", "position": 1, "impressions": 1 }
+    ]
+  }
+}

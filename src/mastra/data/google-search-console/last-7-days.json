@@ -1,0 +1,39 @@
+{
+  "searchAnalytics": {
+    "devices": [
+      { "ctr": 0.01, "clicks": 5, "device": "DESKTOP", "position": 42.56, "impressions": 488 },
+      { "ctr": 0.1, "clicks": 2, "device": "MOBILE", "position": 11.95, "impressions": 21 },
+      { "ctr": 0, "clicks": 0, "device": "TABLET", "position": 13.67, "impressions": 3 }
+    ],
+    "overall": {
+      "averageCTR": 1.37,
+      "totalClicks": 7,
+      "averagePosition": 22.72,
+      "totalImpressions": 512
+    },
+    "topPages": [
+      { "ctr": 0.5, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 4, "device": "DESKTOP", "position": 1.5, "impressions": 8 },
+      { "ctr": 1, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 1, "device": "MOBILE", "position": 1, "impressions": 1 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 89.85, "impressions": 13 },
+      { "ctr": 0, "page": "https://reachcopilot.com/solutions/ai-seo", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 35.73, "impressions": 22 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 48.76, "impressions": 21 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 34.7, "impressions": 27 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking software", "clicks": 0, "device": "DESKTOP", "position": 39.6, "impressions": 25 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking tool", "clicks": 0, "device": "DESKTOP", "position": 77.8, "impressions": 20 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking tools", "clicks": 0, "device": "DESKTOP", "position": 87, "impressions": 17 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/", "query": "co pilit", "clicks": 0, "device": "DESKTOP", "position": 1, "impressions": 1 }
+    ],
+    "topQueries": [
+      { "ctr": 0.5, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 4, "device": "DESKTOP", "position": 1.5, "impressions": 8 },
+      { "ctr": 1, "page": "https://reachcopilot.com/", "query": "reachcopilot", "clicks": 1, "device": "MOBILE", "position": 1, "impressions": 1 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo checkers", "clicks": 0, "device": "DESKTOP", "position": 89.85, "impressions": 13 },
+      { "ctr": 0, "page": "https://reachcopilot.com/solutions/ai-seo", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 35.73, "impressions": 22 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracker", "clicks": 0, "device": "DESKTOP", "position": 48.76, "impressions": 21 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo trackers", "clicks": 0, "device": "DESKTOP", "position": 34.7, "impressions": 27 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking software", "clicks": 0, "device": "DESKTOP", "position": 39.6, "impressions": 25 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking tool", "clicks": 0, "device": "DESKTOP", "position": 77.8, "impressions": 20 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/solutions/search", "query": "best copilot seo tracking tools", "clicks": 0, "device": "DESKTOP", "position": 87, "impressions": 17 },
+      { "ctr": 0, "page": "https://www.reachcopilot.com/", "query": "co pilit", "clicks": 0, "device": "DESKTOP", "position": 1, "impressions": 1 }
+    ]
+  }
+}

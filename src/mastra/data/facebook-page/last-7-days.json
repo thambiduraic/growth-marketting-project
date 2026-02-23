@@ -1,0 +1,21 @@
+{
+  "facebookPageAnalytics": {
+    "pageId": "169636919570113",
+    "period": "last7Days",
+    "fanCount": { "value": 16, "percentageChange": 0 },
+    "pageFans": { "value": 0, "percentageChange": 0 },
+    "pageName": "Reach Copilot",
+    "username": "reachcopilot",
+    "pageFanAdds": { "value": 0, "percentageChange": 0 },
+    "dataTimestamp": "2026-02-23T11:00:41.916Z",
+    "followersCount": { "value": 16, "percentageChange": 0 },
+    "pageViewsTotal": { "value": 0, "percentageChange": 0 },
+    "pageImpressions": { "value": 0, "percentageChange": 0 },
+    "pageDailyFollows": { "value": 0, "percentageChange": 0 },
+    "pageTotalActions": { "value": 0, "percentageChange": 0 },
+    "pageImpressionsPaid": { "value": 0, "percentageChange": 0 },
+    "pagePostEngagements": { "value": 0, "percentageChange": 0 },
+    "pageImpressionsViral": { "value": 0, "percentageChange": 0 },
+    "pagePostsImpressions": { "value": 0, "percentageChange": 0 }
+  }
+}

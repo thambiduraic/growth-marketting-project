@@ -1,0 +1,16 @@
+{
+  "instagramBusinessAnalytics": {
+    "period": "last7Days",
+    "accounts": [
+      {
+        "username": "ridgefieldersports",
+        "mediaCount": { "value": 55, "percentageChange": 5.77 },
+        "followsCount": { "value": 11, "percentageChange": 0 },
+        "followersCount": { "value": 4, "percentageChange": 0 },
+        "instagramUserId": "17841471812323455",
+        "mediaTypeMetrics": {}
+      }
+    ],
+    "dataTimestamp": "2026-02-23T11:00:33.909Z"
+  }
+}
