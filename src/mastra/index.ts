@@ -2,15 +2,12 @@ import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore } from '@mastra/libsql';
 import { Observability, DefaultExporter, CloudExporter, SensitiveDataFilter } from '@mastra/observability';
-import { weatherWorkflow } from './workflows/weather-workflow';
 import { campaignWorkflow } from './workflows/campaign-workflow';
 import { monitorDailyWorkflow } from './workflows/monitor-daily-workflow';
-import { weatherAgent } from './agents/weather-agent';
 import { analyticsAgent } from './agents/analytics-agent';
 import { strategyAgent } from './agents/strategy-agent';
 import { planningAgent } from './agents/planning-agent';
 import { monitoringAgent } from './agents/monitoring-agent';
-import { toolCallAppropriatenessScorer, completenessScorer, translationScorer } from './scorers/weather-scorer';
 import {
   analyticsCompletenessScorer,
   strategyCampaignFormatScorer,
@@ -19,18 +16,14 @@ import {
 } from './scorers/marketing-scorer';
 
 export const mastra = new Mastra({
-  workflows: { weatherWorkflow, campaignWorkflow, monitorDailyWorkflow },
+  workflows: { campaignWorkflow, monitorDailyWorkflow },
   agents: {
-    weatherAgent,
     analyticsAgent,
     strategyAgent,
     planningAgent,
     monitoringAgent,
   },
   scorers: {
-    toolCallAppropriatenessScorer,
-    completenessScorer,
-    translationScorer,
     analyticsCompletenessScorer,
     strategyCampaignFormatScorer,
     planStructureScorer,
