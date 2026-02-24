@@ -56,10 +56,15 @@ const recommendStep = createStep({
     ideas: z.array(campaignIdeaSchema),
   }),
   execute: async ({ inputData }) => {
-    const result = await recommendCampaignTool.execute({
-      analyticsSummary: inputData.summary,
-    });
-    return { ideas: result.ideas };
+    const execute = recommendCampaignTool.execute;
+    if (!execute) throw new Error('recommendCampaignTool.execute is not defined');
+    const result = await execute(
+      { analyticsSummary: inputData.summary },
+      undefined as unknown as Parameters<typeof execute>[1],
+    );
+    if ('error' in result && result.error) throw new Error(result.message);
+    const success = result as { ideas: { durationDays: number; idea: string }[] };
+    return { ideas: success.ideas };
   },
 });
 
@@ -145,9 +150,16 @@ const executeStep = createStep({
   execute: async ({ state, setState }) => {
     const name = state.campaignName ?? `Campaign ${Date.now()}`;
     const budget = state.budget ?? 500;
-    const result = await createCampaignTool.execute({ name, budget });
-    setState({ campaignId: result.campaignId });
-    return { campaignId: result.campaignId, status: result.status };
+    const execute = createCampaignTool.execute;
+    if (!execute) throw new Error('createCampaignTool.execute is not defined');
+    const result = await execute(
+      { name, budget },
+      undefined as unknown as Parameters<typeof execute>[1],
+    );
+    if ('error' in result && result.error) throw new Error(result.message);
+    const success = result as { campaignId: string; status: string };
+    setState({ campaignId: success.campaignId });
+    return { campaignId: success.campaignId, status: success.status };
   },
 });
 
